@@ -1,0 +1,16 @@
+model:
+  base_url: "http://127.0.0.1:8080/v1"
+  api_key: "not-needed"
+  model_id: "gpt-oss-7b"
+
+sensing:
+  window_seconds: 20
+  sample_rate_hz: 10
+  simulate: true
+
+io:
+  speak: true
+  use_oled: false
+  use_printer: false
+  printer_serial_port: "/dev/ttyUSB0"
+  printer_baud: 19200

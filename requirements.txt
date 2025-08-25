@@ -1,0 +1,7 @@
+openai>=1.40.0
+numpy
+pillow
+opencv-python
+smbus2
+pyserial
+pyyaml
